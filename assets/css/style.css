@@ -1543,7 +1543,7 @@ img {
   height: 100%;
   max-height: 100%;
   overflow-y: auto;
-  background: #141417;
+  background:#ffffff;
   padding: 0px 0px;
   z-index: 5;
   opacity: 0;
@@ -1606,15 +1606,15 @@ img {
 .mobile-menu .navigation li{
   position: relative;
   display: block;
-  border-top: 1px solid rgba(255,255,255,0.10);
+  border-top: 1px solid rgb(0, 0, 0);
 }
 
 .mobile-menu .navigation:last-child{
-  border-bottom: 1px solid rgba(255,255,255,0.10);
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .mobile-menu .navigation li > ul > li:first-child{
-  border-top: 1px solid rgba(255,255,255,0.10);
+  border-top: 1px solid rgb(0, 0, 0);
 }
 
 .mobile-menu .navigation li > a{
@@ -1624,7 +1624,7 @@ img {
   padding: 10px 25px;
   font-size: 15px;
   font-weight: 500;
-  color: #ffffff;
+  color: #000000;
   text-transform: uppercase;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -1706,7 +1706,7 @@ img {
   position:relative;
   line-height:32px;
   font-size:16px;
-  color:#ffffff;
+  color:#000000;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
@@ -1730,7 +1730,7 @@ div#mCSB_1_container{
 .mobile-menu .contact-info h4 {
   position: relative;
   font-size: 20px;
-  color: #ffffff;
+  color: #000000;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -1739,12 +1739,12 @@ div#mCSB_1_container{
   position: relative;
   display: block;
   font-size: 15px;
-  color: rgba(255,255,255,0.80);
+  color: rgb(5, 0, 0);
   margin-bottom: 3px;
 }
 
 .mobile-menu .contact-info ul li a{
-  color: rgba(255,255,255,0.80);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .mobile-menu .contact-info ul li a:hover{
