@@ -2282,7 +2282,8 @@ button.ltr {
 .list-style-two li:before{
   position: absolute;
   content: '';
-  background: var(--secondary-color);
+  background: none;
+
   width: 7px;
   height: 7px;
   border-radius: 50%;
