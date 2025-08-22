@@ -1921,7 +1921,7 @@ button.ltr {
   line-height: 24px;
   font-weight: 500;
   color: var(--title-color);
-  padding-left: 28px;
+  padding-left: 0px;
   margin-bottom: 20px;
 }
 
@@ -2288,6 +2288,7 @@ button.ltr {
   border-radius: 50%;
   left: 0px;
   top: 8px;
+  font-family: var(--text-font);
 }
 
 .main-content{
@@ -2489,3 +2490,6 @@ button.ltr {
 }
 
 
+.list-style-one li:before {
+    content: none !important; /* hides the icon */
+}
