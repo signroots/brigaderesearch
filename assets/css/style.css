@@ -2494,3 +2494,25 @@ button.ltr {
 .list-style-one li:before {
     content: none !important; /* hides the icon */
 }
+
+/* For mobile view */
+@media (max-width: 768px) {
+  .image-column {
+    text-align: center;
+  }
+
+  .image-column .image-box {
+    margin: 0 auto; /* center the image box */
+  }
+
+  .image-column img {
+    display: inline-block; /* keeps image centered */
+    max-width: 100%; /* responsive image */
+    height: auto;
+  }
+
+  .image-column .btn-box {
+    text-align: center;
+    margin-top: 15px;
+  }
+}
