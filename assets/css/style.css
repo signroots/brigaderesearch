@@ -2272,7 +2272,7 @@ button.ltr {
   font-weight: 500;
   color: var(--title-color);
   margin-bottom: 27px;
-  padding-left: 16px;
+  padding-left: 0px;
 }
 
 .list-style-two li:last-child{
