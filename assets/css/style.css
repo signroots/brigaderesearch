@@ -838,7 +838,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 20px;
+  padding: 2px 20px;
   background: #113281;
 }
 
@@ -2515,4 +2515,33 @@ button.ltr {
     text-align: center;
     margin-top: 15px;
   }
+}
+
+p, ul, li {
+  font-family: var(--text-font);
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.green-card {
+    background: #198754;   /* Bootstrap green */
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    color: #fff;  /* White text */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.green-card h4,
+.green-card p,
+.green-card .icon-box i {
+    color: #fff;  /* Ensure headings, icons, and text are white */
+}
+
+.green-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
 }
